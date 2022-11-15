@@ -51,7 +51,7 @@ const Todo = () => {
             <button
               className="btn effect04"
               data-sm-link-text="remove All"
-              onClick={() => dispatch(removeTodo())}
+              onClick={() => dispatch(removeTodo(removeTodo.id))}
             >
               <span>Check List</span>
             </button>

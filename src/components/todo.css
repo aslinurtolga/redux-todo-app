@@ -16,14 +16,14 @@ html {
   /* background: #B9E0FF; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .child-div {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 530px;
+  /* width: 45rem; */
+  width: 520px;
   border-radius: 0.5rem;
   background: url(https://i.pinimg.com/564x/67/37/fa/6737faf5fdf530fe5bd57bc7326650cf.jpg);
 }
@@ -41,8 +41,8 @@ html {
 }
 
 input {
-  /* display: block; */
-  min-width: 40rem;
+  /* min-width: 40rem; */
+  width: 420px;
   height: 3.4rem;
   padding: 3rem 1.5rem;
   font-size: 1.8rem;
@@ -114,11 +114,11 @@ input:focus {
   padding: 1.2rem;
   border-radius: 0.5rem;
   margin-bottom: 0.7rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 2.6rem;
+  margin-right: 1.6rem;
   min-width: 40rem;
   word-break: break-word;
-  background: #febe8c;
+  background: #c7b198;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,12 +156,12 @@ input:focus {
 } */
 
 .eachItem:hover .fa-trash-alt {
-  color: #d0b8a8;
+  color: #c7b198;
 }
 
-.eachItem:hover .fa-edit {
+/* .eachItem:hover .fa-edit {
   color: rgb(100, 214, 47);
-}
+} */
 
 .eachItem:hover h3 {
   color: #52616b;
@@ -178,15 +178,17 @@ input:focus {
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
+  font-weight: 600;
 }
 .btn:hover {
   text-decoration: none;
+  font-weight: 600;
 }
 
 .effect04 {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
   display: var(--uismLinkDisplay);
-  color: #9F8772;
+  color: #c7b198;
   position: relative;
   transition-duration: 0.4s;
   overflow: hidden;
@@ -205,7 +207,7 @@ input:focus {
 }
 
 .effect04:hover {
-  background-color: #d0b8a8;
+  background-color: #c7b198;
   border-radius: 0.5rem;
   font-size: 18px;
   border: none;
